@@ -1,3 +1,4 @@
 models/best_model.pkl filter=lfs diff=lfs merge=lfs -text
 models/cleaned_air_quality.csv filter=lfs diff=lfs merge=lfs -text
 models/app_air_quality.csv filter=lfs diff=lfs merge=lfs -text
+*.pbix filter=lfs diff=lfs merge=lfs -text
