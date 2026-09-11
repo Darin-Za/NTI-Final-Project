@@ -31,7 +31,7 @@ st.markdown(
 def load_data():
 
     return pd.read_csv(
-        "models/cleaned_air_quality.csv"
+        "models/app_air_quality.csv"
     )
 
 @st.cache_data
