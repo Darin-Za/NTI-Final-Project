@@ -830,7 +830,7 @@ elif page == "Dataset Information":
 
     st.dataframe(
 
-        df.head(100),
+        df.head(20),
 
         use_container_width=True
 
