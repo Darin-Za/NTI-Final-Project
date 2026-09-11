@@ -99,9 +99,7 @@ page = st.sidebar.radio(
 
         "AQI Prediction",
 
-        "Model Evaluation",
-
-        "Dataset Information"
+        "Model Evaluation"
 
     ]
 
@@ -780,71 +778,3 @@ elif page == "Model Evaluation":
 
 
     plt.close(fig)
-
-elif page == "Dataset Information":
-
-    st.header(
-        "Dataset Information"
-    )
-
-    col1, col2, col3 = st.columns(3)
-
-
-    with col1:
-
-        st.metric(
-
-            "Rows",
-
-            f"{df.shape[0]:,}"
-
-        )
-
-
-    with col2:
-
-        st.metric(
-
-            "Columns",
-
-            df.shape[1]
-
-        )
-
-
-    with col3:
-
-        st.metric(
-
-            "Duplicates",
-
-            df.duplicated().sum()
-
-        )
-
-    st.divider()
-
-    st.subheader(
-        "Dataset Preview"
-    )
-
-    st.dataframe(
-
-        df.head(20),
-
-        use_container_width=True
-
-    )
-
-
-    st.subheader(
-        "Descriptive Statistics"
-    )
-
-    st.dataframe(
-
-        df.describe(),
-
-        use_container_width=True
-
-    )
