@@ -103,7 +103,7 @@ This optimization was necessary to reduce memory usage and improve application s
 
 The original complete dataset is still used for the full project workflow and local execution.
 
-## Running the Project Locally
+## Running the Project Locally From "V1 ( localhost full Dateset)" Folder
 
 ### 1. Clone the Repository
 
