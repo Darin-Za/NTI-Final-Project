@@ -1,0 +1,4 @@
+Aseel Waleed -------------> Power bi - presentation - business questions and problem 
+Darin Ashraf -------------> outliers - modeling - streamlit
+Cinderella Ehab ----------> Power bi - presentation - business questions and problem 
+Mariam Gamal--------------> missing - duplicates -evaluation
